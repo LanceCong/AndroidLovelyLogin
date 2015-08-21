@@ -11,7 +11,7 @@
         android:layout_height="180dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="198dp"
+        android:layout_marginTop="138dp"
         android:background="@drawable/shape_login_layout"
         android:gravity="center"
         android:orientation="vertical">
@@ -34,7 +34,7 @@
                 android:id="@+id/edt_username"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="1dp"
                 android:background="@null"
                 android:gravity="center_vertical" />
         </LinearLayout>
@@ -58,7 +58,7 @@
                 android:id="@+id/edt_password"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="1dp"
                 android:background="@null"
                 android:gravity="center_vertical"
                 android:inputType="textPassword" />
@@ -72,7 +72,7 @@
         android:layout_width="211dp"
         android:layout_height="108dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100.229dp"
+        android:layout_marginTop="40.229dp"
         android:src="@mipmap/avator" />
 
     <LinearLayout
@@ -80,7 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="146.70dp"
+        android:layout_marginTop="86.70dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:visibility="gone">
@@ -105,7 +105,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="110dp"
         android:gravity="center"
         android:orientation="horizontal">
 
