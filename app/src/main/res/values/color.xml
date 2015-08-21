@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#87CEFA</color>
+    <!--<color name = "color_text_selected" >#2b2c30</color >
+    <color name = "color_text_normal" >#626262</color >-->
+    <!--<color name = "color_text_selected" >#ff33b5e5</color >-->
+    <color name="color_text_selected">#44edd6</color>
+    <!--美团主色调-->
+    <color name="meituan_main_color">#44edd6</color>
+    <color name="meituan_main_color_pred">#00dfd6</color>
+    <color name="color_text_normal">#99999f</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="com_sina_weibo_sdk_loginview_text_color">#FFFFFF</color>
+    <color name="bg_activity_default">#efeff4</color>
+    <color name="bg_divideline">#d2d1d6</color>
+    <color name="tc_minor">#8e8e8e</color>
+
+    <color name="normal_background">#f7f7f7</color>
+
+    <color name="a">#54545F</color>
+    <!-- 黑字  -->
+    <color name="b">#666672</color>
+    <!-- 背景  -->
+    <color name="c">#61616d</color>
+    <!-- 框  -->
+    <color name="d">#ef4356</color>
+    <!-- 红字  -->
+    <color name="e">#fc5265</color>
+    <!-- 背景（nor）  -->
+    <color name="f">#d01f33</color>
+    <!-- 红线，背景（sel）  -->
+    <color name="g">#d2d1d6</color>
+    <!-- 灰线  -->
+    <color name="h">#f0f0f0</color>
+    <!-- 背景  -->
+    <color name="i">#99999f</color>
+    <!-- 灰字  -->
+    <color name="j">#81cd28</color>
+    <!-- 绿线，背景（nor）  -->
+    <color name="k">#5dbc24</color>
+    <!-- 背景（sel） -->
+    <color name="l">#a1d53c</color>
+    <!-- 浅绿 -->
+    <color name="n">#f0f2f5</color>
+    <!-- 灰色背景  -->
+    <color name="t">#989fa9</color>
+    <color name="s">#B7BABF</color>
+    <color name="o">#C5C8CC</color>
+    <!--  灰色1 -->
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="popup_main_background">#b0000000</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="title_color">#333333</color>
+    <!--半透明-->
+    <color name="transparent">#3f000000</color>
+    <color name="transparent_conplete">#00000000</color>
+    <color name="transparent_deep">#1a000000</color>
+
+    <!--微信Actionbar颜色-->
+    <color name="weixin_action_bar">#22282c</color>
+    <drawable name="face_rb_selected">#333333</drawable>
+    <drawable name="face_rb_select">#cccccc</drawable>
+
+
+    <!--材料设计-->
+    <color name="background_material_dark">#ff303030</color>
+    <color name="background_material_light">#ffeeeeee</color>
+    <color name="background_floating_material_dark">#ff424242</color>
+    <color name="background_floating_material_light">#ffeeeeee</color>
+    <color name="primary_material_dark">#ff212121</color>
+    <color name="primary_material_light">#ffbdbdbd</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff757575</color>
+    <color name="ripple_material_dark">#40ffffff</color>
+    <color name="ripple_material_light">#40000000</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="bright_foreground_material_dark">@color/white</color>
+    <color name="bright_foreground_material_light">@color/black</color>
+    <!-- White 50% -->
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <!-- Black 50% -->
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <!-- TODO: This is 40% alpha on the default accent color. -->
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <!-- TODO: This is 40% alpha on the default accent color. -->
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="link_text_material_dark">@color/material_deep_teal_200</color>
+    <color name="link_text_material_light">@color/material_deep_teal_500</color>
+    <!-- Text & foreground colors -->
+    <eat-comment />
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
+    <item name="disabled_alpha_material_dark" format="float" type="dimen">0.30</item>
+    <!-- Primary & accent colors -->
+    <eat-comment />
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <!-- Time picker defaults when no theme is set -->
+    <eat-comment />
+    <color name="timepicker_default_background_material">@color/primary_text_default_material_light</color>
+    <color name="timepicker_default_text_color_material">@color/black</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">@color/material_deep_teal_200</color>
+    <color name="timepicker_default_ampm_unselected_background_color_material">@color/transparent</color>
+    <color name="timepicker_default_selector_color_material">@color/material_deep_teal_200</color>
+    <color name="timepicker_default_numbers_background_color_material">@color/transparent</color>
+    <!-- DatePicker colors -->
+    <eat-comment />
+    <color name="datepicker_default_header_selector_background_material_light">@color/white</color>
+    <color name="datepicker_default_header_selector_background_material_dark">#ff303030</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_light">#999999</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_dark">@color/white</color>
+    <color name="datepicker_default_normal_text_color_material_light">#ff999999</color>
+    <color name="datepicker_default_normal_text_color_material_dark">@android:color/white</color>
+    <color name="datepicker_default_disabled_text_color_material_light">#80999999</color>
+    <color name="datepicker_default_disabled_text_color_material_dark">#80999999</color>
+    <color name="datepicker_default_selected_text_color_material_light">#33b5e5</color>
+    <color name="datepicker_default_selected_text_color_material_dark">#33b5e5</color>
+    <color name="datepicker_default_pressed_text_color_material_light">#0099cc</color>
+    <color name="datepicker_default_pressed_text_color_material_dark">#0099cc</color>
+    <color name="datepicker_default_circle_background_color_material_light">@color/material_deep_teal_500</color>
+    <color name="datepicker_default_circle_background_color_material_dark">@color/material_deep_teal_200</color>
+    <color name="datepicker_default_view_animator_color_material_light">#f2f2f2</color>
+    <color name="datepicker_default_view_animator_color_material_dark">#ff303030</color>
+
+</resources>
