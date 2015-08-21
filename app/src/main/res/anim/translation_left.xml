@@ -3,5 +3,6 @@
     android:fillAfter="true">
     <translate
         android:fromXDelta="0%"
+        android:duration="80"
         android:toXDelta="-6%" />
 </set>

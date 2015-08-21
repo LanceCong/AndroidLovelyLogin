@@ -12,6 +12,8 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnFocusChangeListener {
 
+    private static final int TIME_GAP_ONE = 80;
+    private static final int TIME_GAP_TWO = 50;
     private LinearLayout mLayoutHideHand;
     private LinearLayout mLayoutShowHand;
     private EditText mEdt_username;
@@ -56,17 +58,17 @@ public class MainActivity extends AppCompatActivity implements View.OnFocusChang
     @Override
     public void onFocusChange(View v, boolean hasFocus) {
         if(mEdt_username.hasFocus()){
-            mIv_left_hand_show.startAnimation(mAnimationTranlate_Left);
-            mIv_right_hand_show.setAnimation(mAnimationTranlate_Right);
+            mLayoutHideHand.setVisibility(View.GONE);
+            mLayoutShowHand.setVisibility(View.VISIBLE);
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    mLayoutHideHand.setVisibility(View.GONE);
-                    mLayoutShowHand.setVisibility(View.VISIBLE);
+                    mIv_left_hand_show.startAnimation(mAnimationTranlate_Left);
+                    mIv_right_hand_show.setAnimation(mAnimationTranlate_Right);
                 }
-            }, 500);
+            }, TIME_GAP_ONE);
         }
-        if(mEdt_password.hasFocus()){
+        if(mEdt_password.hasFocus()) {
             mIv_left_hand_show.startAnimation(mAnimationTranlate_Right);
             mIv_right_hand_show.setAnimation(mAnimationTranlate_Left);
             mHandler.postDelayed(new Runnable() {
@@ -74,8 +76,19 @@ public class MainActivity extends AppCompatActivity implements View.OnFocusChang
                 public void run() {
                     mLayoutHideHand.setVisibility(View.VISIBLE);
                     mLayoutShowHand.setVisibility(View.GONE);
+                    //
+                    mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            mIv_left_hand_hide.startAnimation(mAnimationTranlate_Right);
+                            mIv_right_hand_hide.startAnimation(mAnimationTranlate_Left);
+                        }
+                    });
                 }
-            }, 500);
+            }, TIME_GAP_ONE);
         }
     }
+
+
+
 }
